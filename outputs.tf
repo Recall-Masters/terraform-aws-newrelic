@@ -1,5 +1,5 @@
 locals {
-  layer_name = "arn:aws:lambda:us-west-2:451483290750:layer:NewRelicPython38:48"
+  layer_name = "arn:aws:lambda:us-west-2:451483290750:layer:NewRelicPython39:8"
   handler = "newrelic_lambda_wrapper.handler"
   environment = {
     NEW_RELIC_LAMBDA_HANDLER = var.handler,
